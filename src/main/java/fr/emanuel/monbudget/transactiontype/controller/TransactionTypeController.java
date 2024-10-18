@@ -1,7 +1,7 @@
 package fr.emanuel.monbudget.transactiontype.controller;
 
 import fr.emanuel.monbudget.account.service.AccountService;
-import fr.emanuel.monbudget.global.AbstractCrudController;
+import fr.emanuel.monbudget._global.AbstractCrudController;
 import fr.emanuel.monbudget.transactiontype.model.TransactionType;
 import fr.emanuel.monbudget.transactiontype.service.TransactionTypeService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,7 +2,7 @@ package fr.emanuel.monbudget.account.controller;
 
 import fr.emanuel.monbudget.account.model.Account;
 import fr.emanuel.monbudget.account.service.AccountService;
-import fr.emanuel.monbudget.global.AbstractCrudController;
+import fr.emanuel.monbudget._global.AbstractCrudController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

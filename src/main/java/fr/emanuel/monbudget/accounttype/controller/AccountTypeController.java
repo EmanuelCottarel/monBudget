@@ -2,7 +2,7 @@ package fr.emanuel.monbudget.accounttype.controller;
 
 import fr.emanuel.monbudget.accounttype.model.AccountType;
 import fr.emanuel.monbudget.accounttype.service.AccountTypeService;
-import fr.emanuel.monbudget.global.AbstractCrudController;
+import fr.emanuel.monbudget._global.AbstractCrudController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

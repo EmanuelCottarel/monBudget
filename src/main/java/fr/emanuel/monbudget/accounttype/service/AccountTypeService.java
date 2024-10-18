@@ -2,7 +2,7 @@ package fr.emanuel.monbudget.accounttype.service;
 
 import fr.emanuel.monbudget.accounttype.model.AccountType;
 import fr.emanuel.monbudget.accounttype.repository.AccountTypeRepository;
-import fr.emanuel.monbudget.global.AbstractCrudService;
+import fr.emanuel.monbudget._global.AbstractCrudService;
 import org.springframework.stereotype.Service;
 
 @Service

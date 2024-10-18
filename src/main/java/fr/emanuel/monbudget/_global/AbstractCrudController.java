@@ -1,4 +1,4 @@
-package fr.emanuel.monbudget.global;
+package fr.emanuel.monbudget._global;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

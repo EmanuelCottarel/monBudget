@@ -1,4 +1,4 @@
-package fr.emanuel.monbudget.global;
+package fr.emanuel.monbudget._global;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Service;
@@ -20,6 +20,10 @@ public class AbstractCrudService<T> {
 
     public T findById(Long id){
         return this.repository.findById(id).get();
+    }
+
+    public void remove(T object){
+        this.repository.delete(object);
     }
 
 }

@@ -23,7 +23,7 @@
             <td th:text="${account.balance}">00</td>
             <td>
                 <a class="btn btn-primary"  th:href="@{/account/{id}(id=${account.id})}">View</a>
-                <a class="btn btn-danger"  th:href="@{/api/account/{id}(id=${account.id})}">Delete</a>
+                <a class="btn btn-danger"  th:href="@{/account/delete/{id}(id=${account.id})}">Delete</a>
             </td>
         </tr>
     </tbody>

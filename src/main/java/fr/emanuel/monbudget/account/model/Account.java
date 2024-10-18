@@ -25,7 +25,7 @@ public class Account {
     @ManyToOne
     private AccountType type;
 
-    @OneToMany(mappedBy = "account")
+    @OneToMany(mappedBy = "account", cascade = CascadeType.ALL)
     private List<Transaction> transactions;
 
     @ManyToOne
